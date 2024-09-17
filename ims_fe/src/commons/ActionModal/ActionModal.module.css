@@ -1,0 +1,44 @@
+.modalTitle-danger {
+  color: #dc3545;
+}
+
+.modalTitle-primary {
+  color: #007bff;
+}
+
+.modalTitle-warning {
+  color: #ffc107;
+}
+
+.modalBody {
+  font-size: 1.1em;
+}
+
+.confirmButton {
+  border: none;
+}
+
+.confirmButton-danger {
+  background-color: #dc3545;
+}
+
+.confirmButton-danger:hover {
+  background-color: #c82333;
+}
+
+.confirmButton-primary {
+  background-color: #007bff;
+}
+
+.confirmButton-primary:hover {
+  background-color: #0056b3;
+}
+
+.confirmButton-warning {
+  background-color: #ffc107;
+  color: #212529;
+}
+
+.confirmButton-warning:hover {
+  background-color: #e0a800;
+}

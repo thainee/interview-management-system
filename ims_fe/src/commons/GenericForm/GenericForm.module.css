@@ -1,0 +1,48 @@
+.formContainer {
+    padding: 1.2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+.subtitle {
+    margin-bottom: 1rem;
+}
+
+.sectionTitle {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.sectionTitle:first-child {
+    margin-top: 1rem;
+}
+
+.fieldGroup {
+    margin-bottom: 1rem;
+}
+
+.formRow {
+    margin-bottom: 1rem;
+}
+
+.requiredSpan {
+    color: #dc3545;
+}
+
+.invalidFeedback {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.cancelButton {
+    margin-left: 0.5rem;
+}

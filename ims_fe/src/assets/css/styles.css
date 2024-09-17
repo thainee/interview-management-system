@@ -1,0 +1,34 @@
+.width-190 {
+    width: 190px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 250px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    color: #5b6166;
+}
+
+.requiredSpan {
+    color: red;
+    font-size: 17px;
+}
+
+.form-input::placeholder {
+    font-size: 15px;
+}
+
+.note-container {
+    max-height: 160px;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+
+.react-datepicker-popper {
+    z-index: 9999 !important;
+}

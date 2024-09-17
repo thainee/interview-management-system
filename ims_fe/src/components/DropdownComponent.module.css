@@ -1,0 +1,38 @@
+.dropdownItem {
+  padding: 0.25rem 1.25rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: transparent;
+  border: 0;
+}
+
+.dropdownItem:hover {
+  color: #16181b;
+  text-decoration: none;
+  background-color: #e9ecef;
+}
+
+.scrollableMenu {
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.scrollableMenu::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollableMenu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scrollableMenu::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
+
+.scrollableMenu::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
